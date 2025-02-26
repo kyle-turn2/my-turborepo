@@ -5,6 +5,7 @@
     "deploy": "vercel"
   },
   "dependencies": {
+    "@repo/math": "workspace:*",
     "hono": "^4.4.2"
   },
   "devDependencies": {

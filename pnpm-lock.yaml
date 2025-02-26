@@ -57,6 +57,9 @@ importers:
 
   apps/hono-starter-main:
     dependencies:
+      '@repo/math':
+        specifier: workspace:*
+        version: link:../../packages/math
       hono:
         specifier: ^4.4.2
         version: 4.7.2
@@ -137,6 +140,15 @@ importers:
       typescript-eslint:
         specifier: ^8.24.0
         version: 8.24.0(eslint@9.21.0)(typescript@5.7.3)
+
+  packages/math:
+    devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      typescript:
+        specifier: latest
+        version: 5.7.3
 
   packages/typescript-config: {}
 
