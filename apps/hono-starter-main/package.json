@@ -1,4 +1,5 @@
 {
+  "name": "@repo/hono-starter-main",
   "type": "module",
   "scripts": {
     "start": "vercel dev",
